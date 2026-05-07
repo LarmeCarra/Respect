@@ -1,0 +1,241 @@
+.container {
+ display: grid;
+ align-items: stretch; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+
+@keyframes mani{
+    from {color: white;}
+    to {color: red;}  
+}
+
+@keyframes cowc {
+    from {opacity: 0%; width: 100%;}
+    to {opacity: 100%; width: auto;}
+}
+
+
+body{
+    background-image: url('vintage.jpeg');
+}
+
+.nk{
+    width: 100%;
+    height: 100%;
+    display: block;
+    scroll-behavior: smooth;
+}
+
+
+@font-face{
+    font-family: cursive;
+    src: url(cursive.ttf);
+}
+
+@font-face  {
+    font-family: 'sugar';
+    src: url('sugar.otf');
+}
+
+header{
+    background: url('roses.jpg');
+    margin: 0px;
+    height: 50%;
+    top: 0px;
+}
+
+.ttitle{
+    font-size: 50px;
+    font: 70px cursive;
+    color: red;
+    text-align: center;
+    animation: mani 4s alternate-reverse;
+}
+
+.pandaimg{
+    position: relative;
+    width: 90%;
+    height: 60%;
+    animation: cow 4s;
+    
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fade {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.p1{
+    width: 500px;
+    height: 500px;
+    
+}
+.classp{
+    width: 100%;
+    height: 50%;
+    animation: cow 4s;
+}
+
+.ti1{
+    text-align: center;
+    color: black;
+}
+
+.ti2{
+    text-align: center;
+    color: black;
+    font: 30px cursive;
+}
+
+.fors{
+    text-align: center;
+    color: black;
+    font: 50px cursive;
+}
+
+.words{
+    font: 50px sugar;
+    color: black;
+    text-align: center;
+}
+
+.wordsp{
+    width: 200px;
+    height: 300px;0
+    transition: ease-out;
+    transform: rotate(20deg);
+}
+
+
+.wordsp1{
+    width: 300px;
+    height: 300px;
+    transition: ease-out;
+    text-align: center;
+}
+
+.imf{
+    width: 300px;
+    height: 300px;
+    border: 10px ridge #b5694bd0;
+    transform: rotate3d(1, 1, 0, 20deg)
+}
+
+.bi{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation-name: 1ani;
+    aanimation-duration: 4s;
+}
+
+
+
+.table1{
+    margin: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.ano{
+    width: 50%;
+}
+
+.ano1{
+    position: absolute;
+    left: 40%;
+}
+
+.ano3{
+    position: absolute;
+    left: 50%;
+}
+
+
+.ano2{
+    position: absolute;
+    left: 0%;
+}
+
+.fixi{
+    max-width: 400px;
+}
+
+.fixi1{
+    max-width: 300px;
+    transform: rotate(-20deg);
+    animation: cow 4s;
+}
+
+.fixi2{
+    max-width: 150px;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 50%;
+    animation: cow 4s;
+}
+
+.video1{
+    border: 10px ridge #ad8700c2;
+    transform: rotate(10deg);
+    width: 200px;
+    position: sticky;
+    left: 50%;
+}
+
+.video2{
+    border: 10px ridge #ad8700c2;
+    transform: rotate(-10deg);
+    width: 200px;
+    position: sticky;
+    left: 10%;
+}
+
+.last{
+    text-align: center;
+    color: black;
+    font: 30px sugar;
+}
+
+.last1{
+    text-align: center;
+    color: red;
+}
+
+footer{
+    background: url('roses.jpg');
+    text-align: center;
+}
+
+.tty{
+    color: red;
+    text-align: center;
+}
+
+.ttx{
+    color: blue;
+    text-align: center;
+}
+
+.bbb{
+    width: 80%;
+    height: 80%;
+    border: 20px groove #ad8700a9;
+}
